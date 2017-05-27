@@ -1,8 +1,8 @@
 # reboot-now Cookbook
 
-This can't be any simpler, a startup cookbook to show basic concepts of chef.
-It does what it says: reboots the box, that's it, just addit to your run list and voila...
-Just don't forget to remove it from thelist otherwise it will reboot on every client run, probably not what you want :-)
+This cannot be any simpler, a startup cookbook to show basic concepts of chef.
+It does what it says: reboots the box, that is it, just addit to your run list and voila...
+Just do not forget to remove it from the list after the reboot, otherwise it will reboot on every client run, probably not what you want :-)
 
 ## Requirements
 
@@ -48,7 +48,7 @@ None
 TODO: Write usage instructions for each cookbook.
 
 e.g.
-Just include `reboot-now` in your node's `run_list`:
+Just include `reboot-now` in your nodes `run_list`:
 
 ```json
 {
