@@ -1,18 +1,16 @@
 # reboot-now Cookbook
 
-TODO: Enter the cookbook description here.
-
-e.g.
-This cookbook makes your favorite breakfast sandwich.
+This can't be any simpler, a startup cookbook to show basic concepts of chef.
+It does what it says: reboots the box, that's it, just addit to your run list and voila...
+Just don't forget to remove it from thelist otherwise it will reboot on every client run, probably not what you want :-)
 
 ## Requirements
 
-TODO: List your cookbook requirements. Be sure to include any requirements this cookbook has on platforms, libraries, other cookbooks, packages, operating systems, etc.
+None, just basic chef environment, any version.
 
-e.g.
 ### Platforms
 
-- SandwichOS
+Whatever chef runs on
 
 ### Chef
 
@@ -24,9 +22,8 @@ e.g.
 
 ## Attributes
 
-TODO: List your cookbook attributes here.
+None
 
-e.g.
 ### reboot-now::default
 
 <table>
@@ -64,17 +61,9 @@ Just include `reboot-now` in your node's `run_list`:
 
 ## Contributing
 
-TODO: (optional) If this is a public cookbook, detail the process for contributing. If this is a private cookbook, remove this section.
-
-e.g.
-1. Fork the repository on Github
-2. Create a named feature branch (like `add_component_x`)
-3. Write your change
-4. Write tests for your change (if applicable)
-5. Run the tests, ensuring they all pass
-6. Submit a Pull Request using Github
+This is a public cookbook, your trade secrets are safe here :-)
 
 ## License and Authors
 
-Authors: TODO: List authors
+Authors: Your's Truly - mark@naumowicz.net
 
